@@ -1,11 +1,11 @@
 from joblib import load
 import pandas as pd
 
-model_rest =    load('/home/dom/python/project_atlique_ai/artifacts/model_rest.joblib')
-scaler_rest = load('/home/dom/python/project_atlique_ai/artifacts/scaler_rest.joblib')
+model_rest =    load('ml-project-premium-prediction/artifacts/model_rest.joblib')
+scaler_rest = load('ml-project-premium-prediction/artifacts/scaler_rest.joblib')
 
-model_young = load('/home/dom/python/project_atlique_ai/artifacts/model_young.joblib')
-scaler_young = load('/home/dom/python/project_atlique_ai/artifacts/scaler_young.joblib')
+model_young = load('ml-project-premium-prediction/artifacts/model_young.joblib')
+scaler_young = load('ml-project-premium-prediction/artifacts/scaler_young.joblib')
 
 
 def calculate_normalized_risk(medical_history):
